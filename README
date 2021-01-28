@@ -1,0 +1,30 @@
+This program is built totally on Python 3. To run it, user need to have installed Python 3.4 and above.
+The following Python libraries has been used and they need to be installed on the system
+            datetime
+            zlib
+            socket
+            tkinter
+            threading
+            xml
+            random
+            string
+            collections
+Generally all of them are built into Official Python 3.4 and above install.
+Run command 'help("modules")' to get the list of installed modules and verify installation.
+
+pdu library resides in the file pdu.py and it must be in the folder with client.py and/or server.py
+
+
+Implemetation is very buggy due to the limited amount of time and experience in network programming
+So it might seem to stop because of server's multithreading implementation and global interpretor lock
+
+
+All features have been implemented on the server but not implemented on the client because of the tkinter GUI limitation
+Tkinter comes with python and it is very basic and primitive GUI API.
+Feature not implemented on GUI: sending file, seeing last seen and typing status
+
+Tkinter is used because it is very basic and uses OS libraries to form windows and widgets, 
+hence the same code should run same on almost every kind of OS
+
+But the operating system used to build the program is Debian Buster with Linux kernel 5.0
+The program is best viewed in Debian based linux installations
